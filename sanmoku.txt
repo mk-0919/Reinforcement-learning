@@ -1,0 +1,10 @@
+状態:3^9　1マスにつき3つの状態＊9マス
+行動:9　置けるマス（状態により変化）
+
+sanmoku_env = action選択時のみdeduplication
+sanmoku_env2 = q_table更新時にもdeduplication
+sanmoku_env3 = env2+q_table更新方法改変
+
+参考CartPole
+num_states = 4
+num_actions = 2
